@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.5)  11 MAR 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.3.5)  13 MAR 2017 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,13 +676,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 ) (./ex4.py) (./ex4a.py) <ex4.png, id=13, 578.16pt x 433.62pt>
 File: ex4.png Graphic file (type png)
  <use ex4.png>
-Package pdftex.def Info: ex4.png used on input line 100.
+Package pdftex.def Info: ex4.png used on input line 97.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
  [2] (./ex5.py) [3 <./ex4.png>] (./p1report.aux) ) 
 Here is how much of TeX's memory you used:
  5374 strings out of 493029
  69069 string characters out of 6136235
- 177682 words of memory out of 5000000
+ 176682 words of memory out of 5000000
  8778 multiletter control sequences out of 15000+600000
  21873 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -698,7 +698,7 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on p1report.pdf (3 pages, 118453 bytes).
+Output written on p1report.pdf (3 pages, 116764 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream

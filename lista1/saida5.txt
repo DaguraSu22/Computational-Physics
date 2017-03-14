@@ -1,0 +1,1 @@
+Entre com o valor de a: Entre com o valor de b: Entre com o valor de c: As raizes sao:  (-2+0j) , (-3+0j)
