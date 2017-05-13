@@ -7,7 +7,6 @@ def qr_fact(A):
 	C = zeros([N,N], float) 
 	u = zeros([N,N], float)	# Auxiliar matrix 
 	
-	# Allocating the Q matrix
 	for i in range (N):
 		if i==0:
 			u[:,i] = A[:,i]
@@ -18,7 +17,6 @@ def qr_fact(A):
 					u[:,i] += - B[:,j].dot(A[:,i])*B[:,j]
 			B[:,i] = u[:,i]/sqrt(u[:,i].dot(u[:,i]))
 	
-	# Allocating the R matrix
 	for i in range(N):
 		for j in range(N):
 			if j>=i:
