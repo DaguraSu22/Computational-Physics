@@ -37,9 +37,3 @@ Q, R = qr_fact(X)
 print Q
 print R
 print dot(Q,R)
-
-	
-			
-
-
-

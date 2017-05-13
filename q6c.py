@@ -60,11 +60,4 @@ eigvec = zeros([len(X),len(X)],float)
 eigval, eigvec = qr_alg(X,epsilon)
 
 print eigval
-print eigvec  
-
-
-
-			
-
-
-
+print eigvec
