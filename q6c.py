@@ -1,6 +1,6 @@
 from numpy import array, empty, zeros, sqrt, dot, identity
-
-def qr_fact(A):
+# QR factorization
+def qr_fact(A):			
 	N = len(A)
 	# B = Q and C = R
 	B = zeros([N,N], float)
@@ -22,9 +22,8 @@ def qr_fact(A):
 			if j>=i:
 				C[i,j] = A[:,j].dot(B[:,i])
 	return (B,C)
-
 # QR Algorithm
-def qr_alg(A,delta):
+def qr_alg(A,delta):	
 	N = len(A)
 	Q = zeros([N,N],float)
 	R = zeros([N,N],float)
@@ -44,17 +43,13 @@ def qr_alg(A,delta):
 			if i==j:
 				W[i]=A[i,j]
 	return (W, V)
-
 # An example
-epsilon = 1e-6 # Accuracy
+epsilon = 1e-6 				# Accuracy
 X = array([[1,4,8,4],
        	   [4,2,3,7],
            [8,3,6,9],
            [4,7,9,2]],float)
 eigval = zeros([len(X),len(X)],float)
 eigvec = zeros([len(X),len(X)],float)
-
 eigval, eigvec = qr_alg(X,epsilon)
-
-print eigval
-print eigvec
+print eigval,"\n",eigvec

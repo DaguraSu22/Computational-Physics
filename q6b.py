@@ -1,5 +1,5 @@
 from numpy import array, empty, zeros, sqrt, dot
-
+# QR factorization
 def qr_fact(A):
 	N = len(A)
 	# B = Q and C = R
@@ -22,7 +22,6 @@ def qr_fact(A):
 			if j>=i:
 				C[i,j] = A[:,j].dot(B[:,i])
 	return (B,C)
-
 # An example
 X = array([[1,4,8,4],
        	   [4,2,3,7],
@@ -32,6 +31,4 @@ Q = zeros([len(X),len(X)],float)
 R = zeros([len(X),len(X)],float)
 
 Q, R = qr_fact(X)
-print Q
-print R
-print dot(Q,R)
+print Q,"\n",R,"\n",dot(Q,R)
