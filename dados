@@ -1,0 +1,38 @@
+jacobi 9   pontos 1e-6 82 iteração 0.000286817550659 seconds
+jacobi 101 pontos 1e-6 4077 iterações 112.077850103 seconds
+jacobi 501 pontos 1e-4 2380 iterações 2223.12489009 seconds
+jacobi 5001 pontos 1e-2 25 iterações 2045.10318303 seconds
+
+over 9 pontos 1e-6 2 iterações 0.000602006912231 seconds 
+over 101 pontos 1e-6 625 iterações 25.0614089966 seconds
+over 501 pontos 1e-4 2039 iterações 2030.67408705 seconds
+over 5001 pontos 1e-2 20 iterações 1945 seconds	 
+from pylab import *
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib.pyplot as plt
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+
+# Impressao do grafico das curvas de nivel.
+
+#imshow(phi)
+#colorbar()
+#gray()
+#show()
+
+# Impressão do grafico de superficie.
+
+#fig = plt.figure()
+#ax = fig.gca(projection='3d')
+
+# Make data.
+#X = np.arange(0, M+1, 1)
+#Y = np.arange(0, M+1, 1)
+#X, Y = np.meshgrid(X, Y)
+#Z = phi[:]
+
+# Plot the surface.
+#surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
+#                     linewidth=0, antialiased=False)
+
+#plt.show()

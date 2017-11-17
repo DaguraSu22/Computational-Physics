@@ -8,9 +8,9 @@ import numpy as np
 import time
 start_time = time.time()
 # Constants
-M = 5001        	# Grid squares on a side
+M = 9        	# Grid squares on a side
 V = 1.0         # Voltage at top wall
-target = 1e-2   # Target accuracy
+target = 1e-6   # Target accuracy
 
 # Create arrays to hold potential values
 phi = zeros([M+1,M+1],float)
@@ -20,7 +20,7 @@ phiprime = empty([M+1,M+1],float)
 # Main loop
 cont = 0
 delta = 1.0
-omega = 0.8
+omega = 0.0
 
 while delta>target:
 	delta = 0

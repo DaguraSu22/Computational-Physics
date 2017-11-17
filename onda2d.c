@@ -203,6 +203,7 @@ int main()
 	{
 		for(j=0; j<N_y; j++)
 		{
+			dif[i][j] = u3[i][j] - u2[i][j];	
 			num += u3[i][j] - u2[i][j];
 			den += u3[i][j];
 		}
